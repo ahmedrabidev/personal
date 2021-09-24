@@ -1,0 +1,526 @@
+/*
+Main Style Of CSS
+*/
+/*Start Login Page*/
+.main-login{
+    width: 420px;
+    margin: 30px auto;
+}
+.main-login .login-title,
+.main-register .register-title{
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 20px;
+    background: #fff;
+    background: #d9e8fc;
+    padding: 20px;
+}
+.main-login .login-title{
+    background: none;
+    font-size: 25px;
+}
+.main-login .or_login_with{
+    font-size: 12px;
+    color: #9b9a9a;
+    margin: 15px 0;
+}
+.main-login .or_register a{
+    font-size: 13px;
+    color: #000;
+    text-transform: uppercase;
+}
+.main-login .social-login{
+    margin-top: 20px;
+}
+.main-login .social-login a{
+    margin: 5px;
+}
+.main-login .social-login a img{
+    width: 40px;
+    height: 40px;
+}
+.main-login .social-login .fb{
+
+}
+.main-login .social-login .go{
+
+}
+
+.main-login form input{
+    border:none;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+}
+.main-login
+.login-language{
+    margin-top: 20px;
+}
+.login-language a{
+    color: #000;
+    background: #fff;
+    padding: 3px 10px;
+    text-underline: none;
+}
+.login-language a:hover{
+    color: inherit;
+}
+/*End Login Page*/
+
+/*Start register Page*/
+.main-register{
+    width: 600px;
+    margin: 50px auto;
+}
+/*END register Page*/
+
+/*Start Flags*/
+.img-flag{
+    width: 30px !important;
+    height: 30px !important;
+}
+.drop-img-flag{
+    padding: 0 10px !important;
+}
+.drop-img-flag img{
+
+}
+.drop-img-flag .title-flag{
+    font-size: 14px;
+    line-height: 35px;
+}
+/*End Flags*/
+/*Start Main Table*/
+.main-table{
+    background: #fff;
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+.main-table .delete-btn,
+.main-table .update-btn
+{
+
+}
+.main-table .delete-btn:hover{
+    background:#ce2525;
+    color: #fff;
+}
+.main-table .update-btn:hover{
+    background: #0ba360;
+    color: #fff;
+}
+.main-table .direct-btn:hover{
+    background: #0b95a3;
+    color: #fff;
+}
+.main-table .delete-btn i,
+.main-table .update-btn i,
+.main-table .direct-btn i
+{
+    margin-left: 5px;
+    transition: .2s ease-in-out;
+}
+.main-table .delete-btn:hover i,
+.main-table .update-btn:hover i{
+    margin-left: 10px;
+}
+/*End Main Table*/
+/*Start Main Model*/
+.main-model{
+
+}
+.main-model .modal-title{
+    width: 100%;
+}
+/*End Main Model*/
+/* Start UL list-unstyled */
+.list-unstyled li,
+.list-unstyled{
+    margin-bottom: 0 !important;
+}
+.pull-right .btn{
+    margin-bottom: 20px;
+}
+/* End UL list-unstyled */
+.show_col_checkbox{
+    margin-bottom: 20px;
+}
+/*Start main-front*/
+.main-front{
+    background-color: #fff;
+}
+.main-front #header-container{
+    margin: 0;
+    padding: 0;
+}
+.main-front #main-content{
+
+}
+.main-front .main-bg{
+    background-image: url("../img/front/bg.jpg");
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #fff;
+    width: 100%;
+}
+.main-front .main-bg .content-bg{
+    background-color: rgba(0,0,0,.4);
+    height: 100%;
+    padding: 0 50px;
+}
+.main-front .main-bg .content-bg .info{
+    padding-top: 40vh;
+}
+.main-front .main-bg .content-bg .info .name{
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.main-front .main-bg .content-bg .info .job_title{
+    font-size: 30px;
+    font-weight: 400;
+}
+.main-front .open-close-header{
+    position: fixed;
+    top: 10px;
+    z-index: 10;
+}
+.main-front .open-close-header #open-header,
+.main-front .open-close-header #close-header{
+    background-color: #149ddd;
+    color: #fff;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    display: inline-block;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.main-front .open-close-header #close-header{
+    display: none;
+}
+.main-front .open-close-header #open-header{
+    display: none;
+}
+.main-front .front-main-header{
+    width: 300px;
+    position: fixed;
+    top: 0;
+    border-bottom: 0;
+    z-index: 999;
+    padding: 10px;
+    background-color: #040b14;
+    height: 100%;
+    color: #fff;
+}
+.main-front .front-main-header .info{
+    text-align: center;
+    padding: 20px 0;
+    margin-bottom: 20px;
+}
+.main-front .front-main-header .info .img-now{
+    border: 5px solid #fff;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.main-front .front-main-header .info img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.main-front .front-main-header .info .name{
+    margin: 15px 0;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+}
+.main-front .front-main-header .info .social{
+
+}
+.main-front .front-main-header .info .social a{
+    color: #fff;
+    font-size: 17px;
+    margin: 0 5px;
+    background-color: #212431;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    text-align: center;
+    display: inline-block;
+    transition: .2s ease-in-out;
+}
+.main-front .front-main-header .info .social a.twitter:hover{
+    background-color: #2aa9e0;
+}
+.main-front .front-main-header .info .social a.facebook:hover{
+    background-color: #5d80cb;
+}
+.main-front .front-main-header .info .social a.google:hover{
+    background-color: #d93838;
+}
+.main-front .front-main-header .info .social a.instgram:hover{
+    background-color: #ac30b5;
+}
+.main-front .front-main-header .info .social a.linkedin:hover{
+    background-color: #0a66c2;
+}
+.main-front .front-main-header .main-links-page{
+    padding: 0;
+    list-style: none;
+}
+.main-front .front-main-header .main-links-page li a{
+    color: #a8a9b4;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 20px;
+    transition: .3s ease-in-out;
+}
+.main-front .front-main-header .main-links-page li a i{
+    margin: 0 10px;
+    font-size: 23px;
+}
+.main-front .front-main-header .main-links-page li a span{
+    font-size: 20px;
+    text-transform: capitalize;
+}
+.main-front .front-main-header .main-links-page li a:hover{
+    color: #fff;
+}
+.main-front .front-main-header .main-links-page li a:hover i{
+        color: #149ddd;
+}
+.main-front .front-main-header .copyright{
+    color: #a8a9b4;
+    font-size: 15px;
+    text-align: center;
+    text-transform: capitalize;
+    margin-top: 50px;
+}
+.main-front .front-main-header .copyright span{
+    font-weight: bold;
+    font-size: 17px;
+    color: #fff;
+}
+.main-front .front-main-header .link_lang{
+    text-align: center;
+    margin-top: 40px;
+}
+.main-front .front-main-header .link_lang a{
+    color: #fff;
+    font-size: 15px;
+    margin: 0 10px;
+    font-weight: bold;
+}
+.main-front .title-page{
+    color: #173b6c;
+    margin-bottom: 30px;
+    font-size: 35px;
+    font-weight: bold;
+    text-transform: capitalize;
+    border-bottom:3px solid #149ddd;
+    display: inline-block;
+    padding-bottom: 10px;
+}
+.main-front #about{
+    background-color: #fff;
+    padding: 60px 20px;
+}
+.main-front #about .intro,
+.main-front #skills .intro{
+    line-height: 1.8;
+    font-size: 18px;
+    color: #272829;
+    margin-bottom: 50px;
+    text-transform: capitalize;
+}
+.main-front #about .right-side{
+
+}
+.main-front #about .right-side h3{
+    color: #173b6c;
+    margin-bottom: 35px;
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.main-front #about .right-side .info{
+
+}
+.main-front #about .right-side .info p{
+    margin-bottom: 25px;
+}
+.main-front #about .right-side .info p strong{
+    font-size: 15px;
+    display: inline-block;
+    margin: 0 10px;
+}
+.main-front #about .right-side .info p i{
+    font-size: 15px;
+    color: #149ddd;
+}
+.main-front #about .right-side .info p span{
+    color: #a8a8a8;
+    font-size: 15px;
+}
+.main-front #about .profile{
+    border: 10px solid #e1e1e1;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.main-front #about .profile img{
+}
+.main-front #skills{
+    padding: 60px 20px;
+}
+.main-front #skills .block{
+    margin-bottom: 20px;
+}
+.main-front #skills .block .name{
+    font-size: 17px;
+    margin-bottom: 10px;
+    display: inline-block;
+    font-weight: bold;
+}
+.main-front #skills .block .progress-bar{
+    font-size: 13px;
+    font-weight: bold;
+}
+.main-front #skills .block .progress-bar-lg{
+    height: 20px;
+}
+.main-front #contact{
+    padding: 60px 20px;
+}
+.main-front #contact .info{
+    padding: 30px;
+    background: #fff;
+    box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
+}
+.main-front #contact .info .block{
+    margin-bottom: 20px;
+}
+.main-front #contact .info .block:last-child{
+    margin-bottom: 0;
+}
+.main-front #contact .info .block i{
+    font-size: 30px;
+    color: #149ddd;
+    width: 50px;
+    height: 50px;
+    background: #dff3fc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    transition: all 0.3s ease-in-out;
+}
+.main-front #contact .info .block .name{
+    margin-bottom: 6px;
+    color: #000;
+    font-size: 20px;
+    font-weight: bold;
+}
+.main-front #contact .info .block .data{
+    font-size: 16px;
+}
+.main-front #contact .info .block:hover i{
+    color: #fff;
+    background-color: #149ddd;
+}
+.main-front #contact .lang{
+    padding: 30px;
+    background: #fff;
+    box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
+    margin-top: 20px;
+}
+.main-front #contact .lang .title{
+    font-size: 25px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+.main-front #contact .lang .box{
+    margin-bottom: 15px;
+}
+.main-front #contact .lang .box:last-child{
+    margin-bottom: 0;
+}
+.main-front #contact .lang .box .progress-bar{
+    height: 20px;
+}
+.main-front #contact .lang .box .name{
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 14px;
+}
+.main-front #contact .form{
+    padding: 30px;
+    background: #fff;
+    box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
+}
+.main-front #contact .form form .form-control{
+    height: 45px;
+    border-radius: 0;
+    margin-bottom: 15px;
+}
+.main-front #contact .form form label{
+    display: block;
+    font-size: 15px;
+    font-weight: 600;
+}
+.main-front #contact .form form textarea{
+    resize: none;
+    width: 100%;
+    height: 250px;
+    border:1px solid #ddd;
+    padding: 10px 15px;
+    outline: none;
+    font-size: 15px;
+}
+.main-front #contact .form form button{
+    margin-top: 20px;
+}
+.main-front .copy{
+    background-color: #040b14;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px;
+    text-align: center;
+}
+.main-front .copy p{
+    margin: 0;
+    color: #fff;
+    text-transform: capitalize;
+}
+.main-front .thanku_contact{
+    height: 100vh;
+    background-color: #fff;
+    text-align: center;
+    padding-top: 20vh;
+
+}
+.main-front .thanku_contact p{
+    font-size: 35px;
+    color: #666;
+    margin-top: 100px;
+    text-transform: capitalize;
+}
+.main-front .thanku_contact i{
+    font-size: 100px;
+    color: #c4c4c4;
+}
+.main-front .thanku_contact a{
+    display: inline-block;
+    margin-top: 30px;
+}
+/*End main-front*/

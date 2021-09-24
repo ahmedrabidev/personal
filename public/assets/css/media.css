@@ -1,0 +1,180 @@
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+    .main-login,
+    .main-register{
+        width: 100%;
+    }
+    .main-front .open-close-header #open-header{
+        display: block;
+    }
+    .main-front #header-container{
+        display: none;
+    }
+    .main-front .main-bg{
+        height: 200px;
+    }
+    .main-front .main-bg .content-bg .info{
+        padding-top: 50px;
+    }
+    .main-front .main-bg .content-bg .info .name{
+        font-size: 20px;
+    }
+    .main-front .main-bg .content-bg .info .job_title{
+        font-size: 15px;
+    }
+    .main-front #about{
+
+    }
+    .main-front #about .right-side .info p{
+        margin-bottom: 12px;
+    }
+    .main-front #about .right-side .info p strong{
+        font-size: 14px;
+        margin: 0 3px;
+    }
+    .main-front #about .right-side .info p span{
+        font-size: 13px;
+    }
+    .main-front #about .right-side .info p i{
+        font-size: 15px;
+    }
+    .main-front #about .profile{
+        display: none;
+    }
+    .main-front #about .intro,
+    .main-front #skills .intro{
+        font-size: 14px;
+        text-align: justify;
+        margin-bottom: 20px;
+    }
+    .main-front .title-page{
+        font-size: 25px;
+        margin-bottom: 15px;
+    }
+    .main-front #about .right-side h3{
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    .main-front .thanku_contact p{
+        font-size: 15px;
+        margin-top: 20px;
+    }
+    .main-front .thanku_contact i{
+        font-size: 40px;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .main-front .open-close-header #open-header{
+        display: block;
+    }
+    .main-front #header-container{
+        display: none;
+    }
+
+    .main-front .main-bg{
+        height: 200px;
+    }
+    .main-front .main-bg .content-bg .info{
+        padding-top: 50px;
+    }
+    .main-front .main-bg .content-bg .info .name{
+        font-size: 20px;
+    }
+    .main-front .main-bg .content-bg .info .job_title{
+        font-size: 15px;
+    }
+    .main-front #about{
+
+
+    }
+    .main-front #about .right-side .info p strong{
+        font-size: 14px;
+        margin: 0 3px;
+    }
+    .main-front #about .right-side .info p span{
+        font-size: 13px;
+    }
+    .main-front #about .right-side .info p i{
+        font-size: 15px;
+    }
+    .main-front #about .profile{
+        display: none;
+    }
+    .main-front #about .intro,
+    .main-front #skills .intro{
+        font-size: 15px;
+        text-align: justify;
+        margin-bottom: 20px;
+    }
+    .main-front .title-page{
+        font-size: 25px;
+    }
+    .main-front .thanku_contact p{
+        font-size: 20px;
+        margin-top: 30px;
+    }
+    .main-front .thanku_contact i{
+        font-size: 40px;
+    }
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .main-front .open-close-header #open-header{
+        display: block;
+    }
+    .main-front #header-container{
+        display: none;
+    }
+    .main-front #about{
+
+    }
+    .main-front #about .right-side .info p strong{
+        font-size: 14px;
+        margin: 0 3px;
+    }
+    .main-front #about .right-side .info p span{
+        font-size: 13px;
+    }
+    .main-front #about .right-side .info p i{
+        font-size: 15px;
+    }
+    .main-front .thanku_contact p{
+        font-size: 25px;
+        margin-top: 50px;
+    }
+    .main-front .thanku_contact i{
+        font-size: 50px;
+    }
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .main-front #about .right-side .info p{
+        margin-bottom: 20px;
+    }
+    .main-front #about .right-side .info p strong{
+        font-size: 14px;
+        margin: 0 3px;
+    }
+    .main-front #about .right-side .info p span{
+        font-size: 13px;
+    }
+    .main-front #about .right-side .info p i{
+        font-size: 15px;
+    }
+    .main-front .thanku_contact p{
+        font-size: 30px;
+        margin-top: 50px;
+    }
+    .main-front .thanku_contact i{
+        font-size: 50px;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+
+}
