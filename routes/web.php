@@ -2,6 +2,8 @@
 
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
+use Mcamara\LaravelLocalization\Facades\LaravelLocalization;
+
 Route::group(
     [
         'prefix' => LaravelLocalization::setLocale(),
@@ -22,7 +24,7 @@ Route::group(
 Route::group(
     [
         'prefix' => LaravelLocalization::setLocale(),
-        'middleware' => [ 'localeSessionRedirect', 'localizationRedirect', 'localeViewPath','guest']
+        'middleware' => [ 'localeSessionRedirect', 'localizationRedirect', 'localeViewPath']
     ], function(){
         Route::post('send/msg','FrontController@sendMessage')->name('sendMailToMe');
         Route::get('thanks/contact','FrontController@thankuContact');
